@@ -1,21 +1,64 @@
 body{
-  background-color: #C5D8A4;
-
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
-hr{
-  background-color: #FFD365 ;
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 30%;
-}
-
 h1{
-  color: #534340;
-  font-style: oblique;
-  font-size: 50px;
+  margin-top: 0;
 }
-h3{
-  color: #534340;
+.top-cloud{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 500px;
+}
+.bottom-cloud{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 500px;
+  bottom: 760px;
+
+}
+.computer{
+  height: 90px;
+  width: 90px;
+}
+.top-container{
+  background-color: #FFD365;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.middle-container{
+  background-color: #FDFFA9;
+}
+
+.bottom-container{
+  background-color: #BB9981;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.fixed-image{
+  height: 90px;
+  width: 90px;
+}
+
+.link-image{
+  height: 5px;
+  width: 5px;
+}
+.profile{
+  background-color: #FDFFA9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.skills{
+  background-color: #F4FCD9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contact-me{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
