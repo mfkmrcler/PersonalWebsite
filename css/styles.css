@@ -6,24 +6,22 @@ body{
 h1{
   margin-top: 0;
 }
-.top-cloud{
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  right: 500px;
-}
-.bottom-cloud{
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  left: 500px;
-  bottom: 760px;
 
+.top-lamp{
+  height: 50px;
+  width: 50px;
 }
+
+.bottom-lamp{
+  height: 50px;
+  width: 50px;
+}
+
 .computer{
-  height: 90px;
-  width: 90px;
+  height: 70px;
+  width: 70px;
 }
+
 .top-container{
   background-color: #FFD365;
   padding-top: 30px;
